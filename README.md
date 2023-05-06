@@ -8,12 +8,12 @@ The dataset was recorded on the Husky robotics platform on the university campus
 
 | Track | Season | Time of day | Frames, pcs | Front cam, res | Back cam, res | LiDAR, rays | 6 DoF pose | Semantic masks |
 |  :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 00 | winter | day | $620$ | $1920\times 1080$ | $1920\times 1080$ | 16 | [x] | front + back <br/> $1920\times 1080 \times 65$ classes  |
-| 01 | winter| night | $626$ | $1920\times 1080$ | $1920\times 1080$ | 16 | [x] | front + back <br/> $1920\times 1080 \times 65$ classes  |
-| 02 | winter | twilight | $609$ | $1920\times 1080$ | $1920\times 1080$ | 16 | [x] | front + back <br/> $1920\times 1080 \times 65$ classes  |
-| 10 | spring | day | $638$ | $1920\times 1080$ | $1920\times 1080$ | 16 | [x] | front + back <br/> $1920\times 1080 \times 65$ classes  |
-| 11 | spring | night | $631$ | $1920\times 1080$ | $1920\times 1080$ | 16 | [x] |  front + back <br/> $1920\times 1080 \times 65$ classes  |
-<br/><br/>
+| 00 | winter | day | $620$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 01 | winter| night | $626$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 02 | winter | twilight | $609$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 10 | spring | day | $638$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 11 | spring | night | $631$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; |  front + back <br/> $1920\times 1080 \times 65$ classes  |
+<br/>
 
 6 DoF poses obtained using ALeGO-LOAM localization method refined with Interactive SLAM.
 
@@ -24,7 +24,7 @@ The dataset was recorded on the Husky robotics platform on the university campus
 | Front cam | ZED (stereo) | $1920\times 1080$ |
 | Back cam | RealSense D435 | $1920\times 1080$ |
 | LiDAR | VLP-16 | $16\times 1824$ |
-<br/><br/>
+<br/>
 
 ## Semantics
 
@@ -39,7 +39,7 @@ The masks are stored as mono-channel images.Each pixel stores a semantic label. 
 | 12 | Rail Track | [230, 150, 140] | 
 | 13 | Road | [128, 64, 128] |
 | ... | ... | ... | 
-<br/><br/>
+<br/>
 
 The complete list of semantic labels and their colors are described in the file [anno_config.json](cfg/anno_config.json).
 
