@@ -8,11 +8,11 @@ The dataset was recorded on the Husky robotics platform on the university campus
 
 | Track | Season | Time of day | Frames, pcs | Front cam, res | Back cam, res | LiDAR, rays | 6 DoF pose | Semantic masks |
 |  :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 00 | winter | day | $620$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
-| 01 | winter| night | $626$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
-| 02 | winter | twilight | $609$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
-| 10 | spring | day | $638$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
-| 11 | spring | night | $631$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; |  front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 00_2023-02-21 | winter | day | $620$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 01_2023-03-15 | winter| night | $626$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 02_2023-02-10 | winter | twilight | $609$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 03_2023-04-11 | spring | day | $638$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; | front + back <br/> $1920\times 1080 \times 65$ classes  |
+| 11_2023-04-13 | spring | night | $631$ | $1920\times 1080$ | $1920\times 1080$ | 16 | &#9745; |  front + back <br/> $1920\times 1080 \times 65$ classes  |
 <br/>
 
 6 DoF poses obtained using ALeGO-LOAM localization method refined with Interactive SLAM.
@@ -52,7 +52,7 @@ The data are organized by tracks, the length of one track is about 3 km, each tr
 
 The structure of track data storage is as follows:
 ```text
-00
+00_2023-02-21
 ├── back_cam
 │   ├── ####.png
 │   └── ####.png
